@@ -17,17 +17,18 @@ body{
     background-color: #fff;
     border: 2px;
     border-radius: 20px;
-    width: 18em;
+    width: 20em;
     height: auto;
     display: grid;
-    justify-content: center;
+    place-content: center;
 }
 
 img{
     max-width: 100%;
-  height: auto;
-  display: block;
+    height: auto;
+    display: block;
 }
+
 .qr-code{
     border-radius: 13px;
     position: relative;
